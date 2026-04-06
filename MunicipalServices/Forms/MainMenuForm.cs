@@ -77,5 +77,10 @@ namespace MunicipalServices.Forms
         {
 
         }
+
+        private void btnEvents_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
