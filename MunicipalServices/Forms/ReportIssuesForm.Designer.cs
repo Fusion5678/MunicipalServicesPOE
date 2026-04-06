@@ -77,7 +77,7 @@ namespace MunicipalServices.Forms
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1196, 120);
+            this.pnlHeader.Size = new System.Drawing.Size(1180, 120);
             this.pnlHeader.TabIndex = 0;
             // 
             // btnBack
@@ -125,7 +125,7 @@ namespace MunicipalServices.Forms
             this.pnlProgress.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlProgress.Location = new System.Drawing.Point(0, 120);
             this.pnlProgress.Name = "pnlProgress";
-            this.pnlProgress.Size = new System.Drawing.Size(1196, 81);
+            this.pnlProgress.Size = new System.Drawing.Size(1180, 81);
             this.pnlProgress.TabIndex = 1;
             // 
             // lblEngagement
@@ -163,9 +163,9 @@ namespace MunicipalServices.Forms
             this.pnlActions.Controls.Add(this.btnClear);
             this.pnlActions.Controls.Add(this.btnSubmit);
             this.pnlActions.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlActions.Location = new System.Drawing.Point(0, 828);
+            this.pnlActions.Location = new System.Drawing.Point(0, 781);
             this.pnlActions.Name = "pnlActions";
-            this.pnlActions.Size = new System.Drawing.Size(1196, 60);
+            this.pnlActions.Size = new System.Drawing.Size(1180, 60);
             this.pnlActions.TabIndex = 3;
             this.pnlActions.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlActions_Paint);
             // 
@@ -210,7 +210,7 @@ namespace MunicipalServices.Forms
             this.pnlScrollOuter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlScrollOuter.Location = new System.Drawing.Point(0, 201);
             this.pnlScrollOuter.Name = "pnlScrollOuter";
-            this.pnlScrollOuter.Size = new System.Drawing.Size(1196, 627);
+            this.pnlScrollOuter.Size = new System.Drawing.Size(1180, 580);
             this.pnlScrollOuter.TabIndex = 2;
             // 
             // pnlScrollInner
@@ -437,7 +437,7 @@ namespace MunicipalServices.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(250)))));
-            this.ClientSize = new System.Drawing.Size(1196, 980);
+            this.ClientSize = new System.Drawing.Size(1180, 841);
             this.Controls.Add(this.pnlScrollOuter);
             this.Controls.Add(this.pnlActions);
             this.Controls.Add(this.pnlProgress);
