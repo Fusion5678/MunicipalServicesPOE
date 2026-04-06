@@ -204,5 +204,25 @@ namespace MunicipalServices.Forms
             if (_parentForm != null && !_parentForm.Visible)
                 _parentForm.Show();
         }
+
+        private void grpMedia_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblLocationHint_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlActions_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void grpLocation_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
